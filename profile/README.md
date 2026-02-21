@@ -50,7 +50,7 @@ autobot agent
 ### Links
 
 - [Documentation](https://crystal-autobot.github.io/autobot/)
-- [Quick start guide](https://github.com/crystal-autobot/autobot#-quick-start)
-- [Security architecture](https://github.com/crystal-autobot/autobot/blob/main/docs/security.md)
+- [Quick start guide](https://crystal-autobot.github.io/autobot/quickstart/)
+- [Security architecture](https://crystal-autobot.github.io/autobot/security/)
 - [Contributing](https://github.com/crystal-autobot/.github/blob/main/CONTRIBUTING.md)
 - [Code of conduct](https://github.com/crystal-autobot/.github/blob/main/CODE_OF_CONDUCT.md)
