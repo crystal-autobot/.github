@@ -22,7 +22,7 @@
 
 ### At a glance
 
-- **2MB** binary, **~5MB** RAM, **<10ms** startup, **zero** runtime dependencies
+- **2MB** binary, **~5MB** RAM, **<20ms** startup, **zero** runtime dependencies
 - Multi-provider LLM support — Anthropic, OpenAI, DeepSeek, Groq, Gemini, OpenRouter, AWS Bedrock, vLLM
 - Chat channels — Telegram, Slack, WhatsApp with allowlists and custom commands
 - Kernel-enforced sandboxing — Docker/bubblewrap OS-level isolation, not regex path checks
