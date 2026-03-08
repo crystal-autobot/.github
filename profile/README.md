@@ -23,11 +23,12 @@
 ### At a glance
 
 - **2MB** binary, **~5MB** RAM, **<20ms** startup, **zero** runtime dependencies
-- Multi-provider LLM support — Anthropic, OpenAI, DeepSeek, Groq, Gemini, OpenRouter, AWS Bedrock, vLLM
-- Chat channels — Telegram, Slack, WhatsApp with allowlists and custom commands
-- Kernel-enforced sandboxing — Docker/bubblewrap OS-level isolation, not regex path checks
+- Multi-provider LLM — Anthropic, OpenAI, DeepSeek, Groq, Gemini, OpenRouter, AWS Bedrock, DuckAI, vLLM
+- Chat channels — Telegram, Slack, WhatsApp, Zulip with allowlists and custom commands
+- Kernel-enforced sandboxing — Docker/bubblewrap OS-level isolation with custom `Dockerfile.sandbox`
 - Vision and voice — image analysis and Whisper transcription
-- Persistent memory, cron scheduling, plugins, MCP server integration
+- Builtin plugins — SQLite, GitHub, Weather; opt-out via config
+- Persistent memory, cron scheduling, MCP servers, markdown skills
 - Run dozens of isolated bots on a single machine
 
 ### Get started
@@ -36,15 +37,15 @@
 brew tap crystal-autobot/tap && brew install autobot
 autobot new optimus && cd optimus
 autobot doctor
-autobot agent
+autobot gateway
 ```
 
 ### Repositories
 
 | Repository | Description |
 |---|---|
-| [autobot](https://github.com/crystal-autobot/autobot) | Core framework — agent runtime, providers, channels, tools |
-| [autobot-sqlite](https://github.com/crystal-autobot/autobot-sqlite) | SQLite plugin for persistent storage |
+| [autobot](https://github.com/crystal-autobot/autobot) | Core framework — agent runtime, providers, channels, plugins, tools |
+| [autobot-wasm](https://github.com/crystal-autobot/autobot-wasm) | WebAssembly plugin — write tools in any language, compile to `.wasm` |
 | [homebrew-tap](https://github.com/crystal-autobot/homebrew-tap) | Homebrew formula for macOS/Linux installation |
 
 ### Links
