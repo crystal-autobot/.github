@@ -46,6 +46,7 @@ autobot gateway
 |---|---|
 | [autobot](https://github.com/crystal-autobot/autobot) | Core framework — agent runtime, providers, channels, plugins, tools |
 | [autobot-wasm](https://github.com/crystal-autobot/autobot-wasm) | WebAssembly plugin — write tools in any language, compile to `.wasm` |
+| [ark](https://github.com/crystal-autobot/ark) | Slack gateway for AWS Bedrock Agents via Socket Mode |
 | [homebrew-tap](https://github.com/crystal-autobot/homebrew-tap) | Homebrew formula for macOS/Linux installation |
 
 ### Links
