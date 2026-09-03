@@ -47,7 +47,7 @@ autobot gateway
 | [ark](https://github.com/crystal-autobot/ark) | Slack gateway for AWS Bedrock Agents via Socket Mode |
 | [autobot](https://github.com/crystal-autobot/autobot) | Core framework — agent runtime, providers, channels, plugins, tools |
 | [autobot-wasm](https://github.com/crystal-autobot/autobot-wasm) | WebAssembly plugin — write tools in any language, compile to `.wasm` |
-| [blueprints](https://github.com/crystal-autobot/blueprints) | Ready-to-use templates — Optimus, Bumblebee, Blaster, Red Alert |
+| [blueprints](https://github.com/crystal-autobot/blueprints) | Ready-to-use templates — themed configs with personalities, skills, and integrations |
 | [homebrew-tap](https://github.com/crystal-autobot/homebrew-tap) | Homebrew formula for macOS/Linux installation |
 
 ### Links
